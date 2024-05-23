@@ -7,7 +7,7 @@ pygame.mixer.init()
 
 #set window 
 WIDTH, HEIGHT = 1120,704
-WIN = pygame.display.set_mode((Constants.WIDTH,Constants.HEIGHT))
+WIN = pygame.display.set_mode((1100,700))
 pygame.display.set_caption("Fishing Freak")
 
 
