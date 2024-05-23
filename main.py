@@ -498,7 +498,7 @@ def main():
     caught = []
     FISHING_MUSIC.play(-1)
     FISHING_MUSIC.set_volume(0.065)
-    with open('/Users/kallan/Documents/Project/FishingGame/savedata.txt') as sf:
+    with open('savedata.txt') as sf:
         lines = sf.readlines()
         for line in lines:
             if line != '\n':
